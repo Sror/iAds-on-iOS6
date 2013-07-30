@@ -23,14 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5B17F3E176F269400A489CE /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B17F3E176F269400A489CE /* iAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B17F41176F269400A489CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5B17F43176F269400A489CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5B17F45176F269400A489CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D5B17F49176F269400A489CE /* test1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test1-Info.plist"; sourceTree = "<group>"; };
+		D5B17F49176F269400A489CE /* iAds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iAds-Info.plist"; sourceTree = "<group>"; };
 		D5B17F4B176F269400A489CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5B17F4D176F269400A489CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5B17F4F176F269400A489CE /* test1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test1-Prefix.pch"; sourceTree = "<group>"; };
+		D5B17F4F176F269400A489CE /* iAds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iAds-Prefix.pch"; sourceTree = "<group>"; };
 		D5B17F50176F269400A489CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5B17F51176F269400A489CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D5B17F53176F269400A489CE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -38,8 +38,8 @@
 		D5B17F57176F269400A489CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D5B17F5A176F269400A489CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D5B17F5D176F269400A489CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D5B17F5F176F269400A489CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5B17F60176F269400A489CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5B17F5F176F269400A489CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iAds/ViewController.h; sourceTree = "<group>"; };
+		D5B17F60176F269400A489CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iAds/ViewController.m; sourceTree = "<group>"; };
 		D5B17F67176F26AC00A489CE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -58,10 +58,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D511AF8517A7B41700821962 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D5B17F53176F269400A489CE /* Default.png */,
+				D5B17F55176F269400A489CE /* Default@2x.png */,
+				D5B17F57176F269400A489CE /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D511AF8617A7B4C400821962 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D5B17F4D176F269400A489CE /* main.m */,
+				D5B17F4F176F269400A489CE /* iAds-Prefix.pch */,
+				D5B17F49176F269400A489CE /* iAds-Info.plist */,
+				D5B17F4A176F269400A489CE /* InfoPlist.strings */,
+				D5B17F59176F269400A489CE /* MainStoryboard_iPhone.storyboard */,
+				D5B17F5C176F269400A489CE /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		D5B17F35176F269400A489CE = {
 			isa = PBXGroup;
 			children = (
-				D5B17F47176F269400A489CE /* ADBanner */,
+				D5B17F5F176F269400A489CE /* ViewController.h */,
+				D5B17F60176F269400A489CE /* ViewController.m */,
+				D5B17F48176F269400A489CE /* Supporting Files */,
 				D5B17F40176F269400A489CE /* Frameworks */,
 				D5B17F3F176F269400A489CE /* Products */,
 			);
@@ -70,7 +95,7 @@
 		D5B17F3F176F269400A489CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5B17F3E176F269400A489CE /* test1.app */,
+				D5B17F3E176F269400A489CE /* iAds.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,41 +111,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5B17F47176F269400A489CE /* ADBanner */ = {
-			isa = PBXGroup;
-			children = (
-				D5B17F5F176F269400A489CE /* ViewController.h */,
-				D5B17F60176F269400A489CE /* ViewController.m */,
-				D5B17F48176F269400A489CE /* Supporting Files */,
-			);
-			name = ADBanner;
-			path = test1;
-			sourceTree = "<group>";
-		};
 		D5B17F48176F269400A489CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				D5B17F50176F269400A489CE /* AppDelegate.h */,
 				D5B17F51176F269400A489CE /* AppDelegate.m */,
-				D5B17F59176F269400A489CE /* MainStoryboard_iPhone.storyboard */,
-				D5B17F5C176F269400A489CE /* MainStoryboard_iPad.storyboard */,
-				D5B17F49176F269400A489CE /* test1-Info.plist */,
-				D5B17F4A176F269400A489CE /* InfoPlist.strings */,
-				D5B17F4D176F269400A489CE /* main.m */,
-				D5B17F4F176F269400A489CE /* test1-Prefix.pch */,
-				D5B17F53176F269400A489CE /* Default.png */,
-				D5B17F55176F269400A489CE /* Default@2x.png */,
-				D5B17F57176F269400A489CE /* Default-568h@2x.png */,
+				D511AF8517A7B41700821962 /* Images */,
+				D511AF8617A7B4C400821962 /* Other */,
 			);
 			name = "Supporting Files";
+			path = iAds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5B17F3D176F269400A489CE /* test1 */ = {
+		D5B17F3D176F269400A489CE /* iAds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B17F64176F269400A489CE /* Build configuration list for PBXNativeTarget "test1" */;
+			buildConfigurationList = D5B17F64176F269400A489CE /* Build configuration list for PBXNativeTarget "iAds" */;
 			buildPhases = (
 				D5B17F3A176F269400A489CE /* Sources */,
 				D5B17F3B176F269400A489CE /* Frameworks */,
@@ -130,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = test1;
-			productName = test1;
-			productReference = D5B17F3E176F269400A489CE /* test1.app */;
+			name = iAds;
+			productName = iAds;
+			productReference = D5B17F3E176F269400A489CE /* iAds.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +152,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = GlobalReach;
 			};
-			buildConfigurationList = D5B17F39176F269400A489CE /* Build configuration list for PBXProject "test1" */;
+			buildConfigurationList = D5B17F39176F269400A489CE /* Build configuration list for PBXProject "iAds" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -156,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B17F3D176F269400A489CE /* test1 */,
+				D5B17F3D176F269400A489CE /* iAds */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +238,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -243,7 +252,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -262,13 +271,14 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -279,10 +289,14 @@
 		D5B17F65176F269400A489CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "test1/test1-Prefix.pch";
-				INFOPLIST_FILE = "test1/test1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iAds/iAds-Prefix.pch";
+				INFOPLIST_FILE = "iAds/iAds-Info.plist";
+				PRODUCT_NAME = iAds;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -291,9 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "test1/test1-Prefix.pch";
-				INFOPLIST_FILE = "test1/test1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iAds/iAds-Prefix.pch";
+				INFOPLIST_FILE = "iAds/iAds-Info.plist";
+				PRODUCT_NAME = iAds;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -301,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5B17F39176F269400A489CE /* Build configuration list for PBXProject "test1" */ = {
+		D5B17F39176F269400A489CE /* Build configuration list for PBXProject "iAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B17F62176F269400A489CE /* Debug */,
@@ -310,13 +324,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B17F64176F269400A489CE /* Build configuration list for PBXNativeTarget "test1" */ = {
+		D5B17F64176F269400A489CE /* Build configuration list for PBXNativeTarget "iAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B17F65176F269400A489CE /* Debug */,
 				D5B17F66176F269400A489CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

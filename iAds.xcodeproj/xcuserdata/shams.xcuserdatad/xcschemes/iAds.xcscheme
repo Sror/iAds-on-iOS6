@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5B17F3D176F269400A489CE"
-               BuildableName = "test1.app"
-               BlueprintName = "test1"
-               ReferencedContainer = "container:test1.xcodeproj">
+               BuildableName = "iAds.app"
+               BlueprintName = "iAds"
+               ReferencedContainer = "container:iAds.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5B17F3D176F269400A489CE"
-            BuildableName = "test1.app"
-            BlueprintName = "test1"
-            ReferencedContainer = "container:test1.xcodeproj">
+            BuildableName = "iAds.app"
+            BlueprintName = "iAds"
+            ReferencedContainer = "container:iAds.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5B17F3D176F269400A489CE"
-            BuildableName = "test1.app"
-            BlueprintName = "test1"
-            ReferencedContainer = "container:test1.xcodeproj">
+            BuildableName = "iAds.app"
+            BlueprintName = "iAds"
+            ReferencedContainer = "container:iAds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5B17F3D176F269400A489CE"
-            BuildableName = "test1.app"
-            BlueprintName = "test1"
-            ReferencedContainer = "container:test1.xcodeproj">
+            BuildableName = "iAds.app"
+            BlueprintName = "iAds"
+            ReferencedContainer = "container:iAds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
